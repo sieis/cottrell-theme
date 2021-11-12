@@ -1,0 +1,16 @@
+.text-gradient{
+    background: -webkit-linear-gradient(60deg, #0d6efd, #198754);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
+}

@@ -1,0 +1,17 @@
+{{ define "main" }}
+    <h2 class="display-2 fw-bold">
+        {{ .Title }}
+    </h2>
+        {{ .Content}}
+    <a href="/{{.Params.section}}" class="">back to {{.Section}}</a>
+    <div>
+        {{ with .PrevInSection }}
+          <a class="" href="{{.RelPermalink}}">previous: {{.Title}}</a>
+        {{ end }}<br>
+        {{ with .NextInSection }}
+          <a class="" href="{{.RelPermalink}}">next: {{.Title}}</a>
+        {{ end }}
+    </div>
+    <a href="/">back home</a>
+{{ end }}
+

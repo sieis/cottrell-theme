@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podcasts on Eamonn Cottrell</title>
+    <link>http://example.org/podcasts/</link>
+    <description>Recent content in Podcasts on Eamonn Cottrell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Nov 2021 12:51:49 -0500</lastBuildDate><atom:link href="http://example.org/podcasts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Re Verse</title>
+      <link>http://example.org/podcasts/re-verse/</link>
+      <pubDate>Fri, 12 Nov 2021 14:04:34 -0500</pubDate>
+      
+      <guid>http://example.org/podcasts/re-verse/</guid>
+      <description>re-verse is an evolution in progress. A swelling undercurrent of short scriptures brought to life in a musical podcast which hopes to breach your ears with both comfort and insecurity. With truth and fear. With cautious optimism and with plenty of dissonance. Re-verse hopes to be a remedy for the wishy-washy-feel goodness of what seems to be a modern misrepresentation of the gospel of truth which I believe holds power. Re-verse hopes to capture moments in time through music with scripture.</description>
+    </item>
+    
+    <item>
+      <title>Sieis Soundtracks</title>
+      <link>http://example.org/podcasts/sieis/</link>
+      <pubDate>Thu, 11 Nov 2021 14:50:57 -0500</pubDate>
+      
+      <guid>http://example.org/podcasts/sieis/</guid>
+      <description>Sieis Soundtracks is a collection of ephemeral soundtracks. It spawned in 2011 from the longer form fna show. Inspriation came orgiainlly from NIN&amp;rsquo;s phenomenal Ghosts I-IV album. The original 37 episodes of Sieis were re-released in 2019 across four 10-track seasons, and additional seasons will be release in this 10-track format going forward.</description>
+    </item>
+    
+    <item>
+      <title>Fna Show</title>
+      <link>http://example.org/podcasts/fna_show/</link>
+      <pubDate>Wed, 10 Nov 2021 13:32:11 -0500</pubDate>
+      
+      <guid>http://example.org/podcasts/fna_show/</guid>
+      <description>The fna show is an aural excursion. an experiment in sound and idea.
+The crucifixion of complacency continues to be the driving force behind the fna show. The fna show began as a haphazard effort towards a comedy podcast back in 2006. It was an excuse to record a group of friends while talking about absolutely nothing. It evolved over the first dozen episodes into a musical meandering weaving through scripted content varying from poems to rants to short stories.</description>
+    </item>
+    
+  </channel>
+</rss>

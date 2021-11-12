@@ -1,0 +1,73 @@
+{{ define "main" }}
+  <div class="container col-xxl-10 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src = "/images/headshot.png" class=" rounded-circle d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+      <div class="col-lg-6">
+        <h1 class="display-2 fw-bold text-gradient lh-1 mb-3">Hi, I'm Eamonn<i class="far fa-hand-spock"></i></h1>
+        <p class="fs-3 text-gradient">
+          {{.Site.Params.Subtitle}}<br>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <!--===================== Writings =====================-->
+  <!-- range through sections -->
+  {{range .Sections.ByDate}}
+    <section class="container-fluid my-5 bg-gradient" id="{{.Section}}">
+        <h2 class="fw-bold text-center py-4 display-4"><a class="text-decoration-none text-gradient" href="{{.RelPermalink}}">{{.Title}} 
+          <!-- display icon based on section -->
+          {{ if (eq .Section "Posts")}}<i class="fas fa-pen-fancy"></i>{{end}}
+          {{ if (eq .Section "Projects")}}<i class="fas fa-rocket"></i>{{end}}
+          {{ if (eq .Section "Podcasts")}}<i class="fas fa-music"></i>{{end}}
+        </a></h2>
+        <!-- display subtitle based on section...subtitles are in front matter of section's _index.md -->
+        {{ if (eq .Section "Posts")}}
+          <p class="fs-3 lead text-center">{{.Params.subtitle}}</p>
+        {{end}}
+        {{ if (eq .Section "Projects")}}
+          <p class="fs-3 lead text-center">{{.Params.subtitle}}</p>
+        {{end}}
+        {{ if (eq .Section "Podcasts")}}
+          <p class="fs-3 lead text-center">{{.Params.subtitle}}</p>
+        {{end}}
+        <!-- make cards for first 3 Pages from each section -->
+        <div class="row row-cols-1 row-cols-lg-3">
+          {{ range first 3 .Pages }}
+          <div class="col">
+            <div class="card shadow-sm my-3 mx-auto h-100 ">
+              <!-- Params from front matter of each post -->
+              <img src="{{.Params.image}}" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-gradient display-5 pb-3"><a class="text-decoration-none text-gradient" href="{{.RelPermalink}}">{{.Title}}</a></h5>
+                <p class="fs-2 text-muted">{{if (eq .Section "Posts")}}{{.Date | time.Format ":date_short"}}{{end}}</p>
+                <p class="lead text-muted"> {{.Params.subtitle}}</p>
+                <p class="card-text">{{.Summary}}</p>
+              </div>
+              <!-- footer links depending on which section...different ones have different front matter and link needs -->
+              <div class="card-footer text-center">
+                {{ if (eq .Section "Posts")}}
+                  <a class="btn btn-lg btn-outline-primary" href="{{.RelPermalink}}">Read More</a>
+                {{end}}
+                {{ if (eq .Section "Projects")}}
+                  <a class="btn btn-lg btn-outline-primary" rel="noopener" target="_blank" href="{{.Params.code}}">Code</a>
+                  <a class="btn btn-lg btn-outline-secondary" rel="noopener" target="_blank" href="{{.Params.demo}}">Demo</a>
+                {{end}}
+                {{ if (eq .Section "Podcasts")}}
+                  <a class="btn btn-lg btn-outline-primary" href="{{.RelPermalink}}">{{.Title}} Page</a>
+                {{end}}
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        <div class="text-center fs-5 fw-bold p-5">
+          <a href="{{.RelPermalink}}" class="text-gradient">all {{.Title}} <i class="fas fa-mouse-pointer"></i></a>
+        </div>
+      </section>
+    <hr>
+  {{end}}
+
+{{ end }}

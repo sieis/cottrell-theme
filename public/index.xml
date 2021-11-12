@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eamonn Cottrell</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Eamonn Cottrell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Nov 2021 14:04:34 -0500</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Re Verse</title>
+      <link>http://example.org/podcasts/re-verse/</link>
+      <pubDate>Fri, 12 Nov 2021 14:04:34 -0500</pubDate>
+      
+      <guid>http://example.org/podcasts/re-verse/</guid>
+      <description>re-verse is an evolution in progress. A swelling undercurrent of short scriptures brought to life in a musical podcast which hopes to breach your ears with both comfort and insecurity. With truth and fear. With cautious optimism and with plenty of dissonance. Re-verse hopes to be a remedy for the wishy-washy-feel goodness of what seems to be a modern misrepresentation of the gospel of truth which I believe holds power. Re-verse hopes to capture moments in time through music with scripture.</description>
+    </item>
+    
+    <item>
+      <title>Sieis Soundtracks</title>
+      <link>http://example.org/podcasts/sieis/</link>
+      <pubDate>Thu, 11 Nov 2021 14:50:57 -0500</pubDate>
+      
+      <guid>http://example.org/podcasts/sieis/</guid>
+      <description>Sieis Soundtracks is a collection of ephemeral soundtracks. It spawned in 2011 from the longer form fna show. Inspriation came orgiainlly from NIN&amp;rsquo;s phenomenal Ghosts I-IV album. The original 37 episodes of Sieis were re-released in 2019 across four 10-track seasons, and additional seasons will be release in this 10-track format going forward.</description>
+    </item>
+    
+    <item>
+      <title>Re-cover</title>
+      <link>http://example.org/projects/recover/</link>
+      <pubDate>Thu, 11 Nov 2021 13:58:56 -0500</pubDate>
+      
+      <guid>http://example.org/projects/recover/</guid>
+      <description>This is meant to address the more common web needs of a group. Namely, a clean, readable and easily accessible site for any member to:
+ Find basic information about the meeting. i.e. location, times, format. Access the meeting guide and participate without the need for paper handouts. Access any online only meeting resources. Contribute donations to the group easily online.  </description>
+    </item>
+    
+    <item>
+      <title>Fna Show</title>
+      <link>http://example.org/podcasts/fna_show/</link>
+      <pubDate>Wed, 10 Nov 2021 13:32:11 -0500</pubDate>
+      
+      <guid>http://example.org/podcasts/fna_show/</guid>
+      <description>The fna show is an aural excursion. an experiment in sound and idea.
+The crucifixion of complacency continues to be the driving force behind the fna show. The fna show began as a haphazard effort towards a comedy podcast back in 2006. It was an excuse to record a group of friends while talking about absolutely nothing. It evolved over the first dozen episodes into a musical meandering weaving through scripted content varying from poems to rants to short stories.</description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://example.org/posts/hugo/</link>
+      <pubDate>Thu, 04 Nov 2021 13:11:51 -0500</pubDate>
+      
+      <guid>http://example.org/posts/hugo/</guid>
+      <description>This past week, I&amp;rsquo;ve put together my first legit theme for Hugo, and it&amp;rsquo;s for a pretty niche audience: recovery groups.
+The Problem: Recovery Groups are Still on Dial Up Most groups are in the stone age when it comes to technology. If they do have a page, it&amp;rsquo;s something that looks terrible, was made a century ago, and is no longer maintained.
+Groups have regular literature and liturgy that circulates for participation in every meeting&amp;ndash;often occurring many times through the week.</description>
+    </item>
+    
+    <item>
+      <title>Recursion</title>
+      <link>http://example.org/posts/recursion/</link>
+      <pubDate>Sun, 24 Oct 2021 13:52:01 -0500</pubDate>
+      
+      <guid>http://example.org/posts/recursion/</guid>
+      <description>I&amp;rsquo;m not a genius, but I have managed to accumulate a fair amount of know-how about a lot of things from specialty coffee to writing fiction to web development.
+One of the problems I run into when I&amp;rsquo;m diving into a new (or old) subject is my seeming inability to stop prodding at its underlying roots.
+When looking for a TV series to watch, I become lost in a rabbit hole of browser tabs, backstories and articles on the proper way to consume content that was intended to simply be entertaining.</description>
+    </item>
+    
+    <item>
+      <title>Web3</title>
+      <link>http://example.org/posts/web3/</link>
+      <pubDate>Fri, 01 Oct 2021 12:18:32 -0500</pubDate>
+      
+      <guid>http://example.org/posts/web3/</guid>
+      <description>A Little Late I&amp;rsquo;m one of the dumb ones.
+I&amp;rsquo;ve been in the know regarding Bitcoin and blockchain and the next wave of the internet (Web3) for many years. I just haven&amp;rsquo;t paid it any attention.
+Well, I&amp;rsquo;ve been getting curious again, and I decided to take a quick course after stumbling across a relatively new ed-tech company, _buildspace.
+They&amp;rsquo;re a YCombinator company, and pivoted from earlier educational ideas under the name ZipSchool to land on the Web3 space.</description>
+    </item>
+    
+    <item>
+      <title>Undertow</title>
+      <link>http://example.org/projects/undertow/</link>
+      <pubDate>Mon, 12 Apr 2021 15:00:45 -0500</pubDate>
+      
+      <guid>http://example.org/projects/undertow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pinhoti</title>
+      <link>http://example.org/projects/pinhoti/</link>
+      <pubDate>Fri, 12 Mar 2021 14:09:09 -0500</pubDate>
+      
+      <guid>http://example.org/projects/pinhoti/</guid>
+      <description>A race site for the Pinhoti 100 mile footrace. This is a concept site I made for an existing race in need of a makeover. I used Stackbit with Hugo &amp;amp; Forestry for this and deployed it on Netlify.</description>
+    </item>
+    
+  </channel>
+</rss>

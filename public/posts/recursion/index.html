@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta property="og:title" content="Recursion" />
+    <meta name="description" content="Eamonn Cottrell&#39;s homepage for writings about tech, web projects and podcast." />
+    
+    <meta property="og:image" content="/images/meta.png"/>
+    
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YML43Q3HZ7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YML43Q3HZ7');
+    </script>
+    
+    
+    
+    
+    <title>Eamonn Cottrell | Recursion</title>
+</head><body>
+        <div class="page-container"><div class="container-fluid" id="content">
+    <h2 class="display-2 fw-bold">
+        Recursion
+    </h2>
+        <p>I&rsquo;m not a genius, but I have managed to accumulate a fair amount of know-how about a lot of things from specialty coffee to writing fiction to web development.</p>
+<p>One of the problems I run into when I&rsquo;m diving into a new (or old) subject is my seeming inability to stop prodding at its underlying roots.</p>
+<p>When looking for a TV series to watch, I become lost in a rabbit hole of browser tabs, backstories and articles on the proper way to consume content that was intended to simply be entertaining.</p>
+<p>When siphoning through project ideas, I can easily become engrossed in the process of making and organizing the very spreadsheets and Notion documents that are meant to simply hold the list of ideas.</p>
+<p>When learning new technical skills, I can lose hours scratching the details of a particular problem, debugging a function or searching for how to phrase a question I need to answer but don&rsquo;t quite understand.</p>
+<p>And those hours are precious to me. Perhaps the most important rhythm for my life today is balancing the active duty work time I&rsquo;m responsible for with the intrinsically rewarding study time I need to grow in a way that allows for the maximum amount of quality family time with my wife and young children.</p>
+<p>What a conundrum! I want my 36hr day, universe! :)</p>
+<p>When revisiting recursion at its most basic level with a very rudimentary example this past week, I dove back into a topic that I&rsquo;ve grasped on a number of previous occasions, but never truly grokked.</p>
+<p>I think I&rsquo;ve got it this time. And it came way after I knew how this worked. I actually understand it now.</p>
+<p>You know what made the difference? Slowing down.</p>
+<p>Understanding Why is More Important Than Knowing Why
+Check this out. It&rsquo;s like a loop, but better. Often touted as a more elegant, powerful solution than a simple for loop, recursion makes use of the ability to call functions within functions in a manner of bundling up the solution.</p>
+<pre tabindex="0"><code>function factorialize(num) {
+  if (num==0) {
+    return 1;
+  } else {
+    return num * factorialize (num-1);
+  }
+}
+// factorialize(5) will return 120
+</code></pre><p>Recursion calls the very function it&rsquo;s evaluating from within itself. It&rsquo;s pretty cool, but also mind-bending. In the first bit, we close a potential infinite loop by letting the function know that when num is equal to zero, just return 1.</p>
+<p>Remember that 0! = 1&hellip;(but be careful not to blow your mind apart if you&rsquo;re interested in exploring why this is actually true)</p>
+<p>So here&rsquo;s where I&rsquo;d gotten before in my quest to know about recursion. It comes naturally to me to dive into video explanations and walkthroughs, but they often don&rsquo;t allow for any deep learning to take place.</p>
+<p>Until I am within the problem myself, I often lack the ability to fully understand its solution.</p>
+<p>Back to the problem at hand: we have a one line solution for the factorials of all numbers other than 0:
+return num * factorialize (num-1)
+What&rsquo;s happening here?</p>
+<p>Num is 5, so we&rsquo;re returning 5 * factorialize (5-1).</p>
+<p>Okay, so next time, we&rsquo;re returning 4 * factorialize (4-1).</p>
+<p>And then 3 * factorialize (3-1).</p>
+<p>And then 2 * factorialize (2-1).</p>
+<p>And finally, 1 * factorialize (1-1)&hellip;which is 1 * 1.</p>
+<p>Here&rsquo;s where it&rsquo;s easier for me to box each of those lines back up in reverse order. We got down to our base case in the last line by taking the factorial of 0 which is 1. This gives us actual numbers to plug back into the previous line.</p>
+<p>Factorialize (2-1) is equal to 1 * 1 at this point. So on that line, we then know that factorialize (3-1) is equal to 2*1. Parse through the final line of 1 * factorialize (1-1) slowly if this isn&rsquo;t clicking yet. This is the critical part where we start to take numbers back up through the recursive call.</p>
+<p>Thus, we&rsquo;ve got numbers to plug into the line before it: 3*2&hellip;. and then that rolls up into the line before it: 4 * 6. And finally, that wraps back up into the first line since by this point we know that factorialize (5-1) evaluates to 24. So the final calculation gives us the final, real, answer: 5 * 24 = 120.</p>
+<p>I write it all out because to conceptualize it, I had to quite literally spell everything out before it clicked. There are a ton of YouTube videos that explain exactly this in more colorful ways, but until I broke it down piecemeal myself, I knew that it worked while not entirely understanding the depth of how it worked.</p>
+<p>This is emblematic of software development and computer programming in general. And many, if not all, things in life for that matter. Learning by doing, by building, by screwing up and trying again, is by far the most impactful method of acquiring even a modicum of skill in this fascinating world of ones and zeros.</p>
+<h2 id="thanks">Thanks!</h2>
+<p>Hey, thanks for reading. I&rsquo;m incredibly interested in web development, and write about my journey here and on LinkedIn. I&rsquo;ve produce a handful of podcasts that sap any of my leftover creative energy!</p>
+<p>Follow me on <a href="https://linkedin.com/in/eamonncottrell">LinkedIn</a> &amp; <a href="https://twitter.com/eamonncottrell">Twitter</a>; I&rsquo;ve resigned to lite participation on these two social networks :)</p>
+
+    <a href="/posts" class="">back to Posts</a>
+    <div>
+        
+          <a class="" href="/posts/web3/">previous: Web3</a>
+        <br>
+        
+          <a class="" href="/posts/hugo/">next: Hugo</a>
+        
+    </div>
+    <a href="/">back home</a>
+
+            </div><section class="container-fluid text-center footer pt-5 mt-5">
+    <h2 class="fw-bold">Find me here:</h2>
+    <div class="footer-links">
+        <a class="btn btn-outline-primary" id="profile-link" href="https://github.com/sieis" target="_blank"><i class="fab fa-github"></i> gitHub</a>
+        <a class="btn btn-outline-primary" rel="noopener" href="https://linkedin.com/in/EamonnCottrell" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        <a class="btn btn-outline-primary" rel="noopener" href="https://twitter.com/EamonnCottrell" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+    </div>
+    <p class="p-3">made with <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo</a> by <a href="https://eamonncottrell.com" rel="noopener" target="_blank">Eamonn</a></p>
+</section><script src="/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        </div>
+    </body>
+</html>

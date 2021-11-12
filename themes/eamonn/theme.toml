@@ -1,0 +1,25 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Eamonn"
+license = "MIT"
+# =============================EDIT THIS========================================
+licenselink = "https://github.com/sieis/yourtheme/blob/master/LICENSE"
+description = "a minimalist theme showcasing writings, projects and podcasts"
+demosite = ""
+homepage = "http://eamonncottrell.com/"
+# =============================EDIT THIS========================================
+tags = ['writing', 'podcast', 'project', 'porfolio']
+# =============================EDIT THIS========================================
+features = ['bootstrap5', 'fontawesome', "minimal", "clean"]
+min_version = "0.41.0"
+
+[author]
+  name = "Eamonn Cottrell"
+  homepage = "https://eamonncottrell.com"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
