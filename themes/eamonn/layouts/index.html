@@ -36,8 +36,8 @@
         <!-- make cards for first 3 Pages from each section -->
         <div class="row row-cols-1 row-cols-lg-3">
           {{ range first 3 .Pages }}
-          <div class="col">
-            <div class="card shadow-sm my-3 mx-auto h-100 ">
+          <div class="col my-3">
+            <div class="card shadow-sm my-3 mx-auto h-100">
               <!-- Params from front matter of each post -->
               <img src="{{.Params.image}}" alt="" class="card-img-top">
               <div class="card-body">
