@@ -42,7 +42,7 @@
               <img src="{{.Params.image}}" alt="" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title fw-bold text-gradient display-5 pb-3"><a class="text-decoration-none text-gradient" href="{{.RelPermalink}}">{{.Title}}</a></h5>
-                <p class="fs-2 text-muted">{{if (eq .Section "Posts")}}{{.Date | time.Format ":date_short"}}{{end}}</p>
+                <p class="fs-5 text-muted">{{if (eq .Section "Posts")}}{{.Date | time.Format ":date_short"}}{{end}}</p>
                 <p class="lead text-muted"> {{.Params.subtitle}}</p>
                 <p class="card-text">{{.Summary}}</p>
               </div>
