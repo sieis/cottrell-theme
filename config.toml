@@ -1,4 +1,4 @@
-baseURL = 'http://eamonncottrell.com/'
+baseURL = 'https://eamonncottrell.com/'
 languageCode = 'en-us'
 title = 'Eamonn Cottrell'
 theme = 'eamonn'
