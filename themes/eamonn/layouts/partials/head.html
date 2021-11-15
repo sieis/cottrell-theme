@@ -24,6 +24,9 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- Twitter Card -->
+    {{ template "_internal/twitter_cards.html" . }}
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     {{ $gtag := print "https://www.googletagmanager.com/gtag/js?id=" .Site.Params.gtag }}
     <script async src="{{ $gtag }}"></script>

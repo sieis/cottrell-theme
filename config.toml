@@ -9,6 +9,7 @@ theme = 'eamonn'
     description = "Eamonn Cottrell's homepage for writings about tech, web projects and podcast."
     metaimage = "/images/meta.png"
     gtag = "G-YML43Q3HZ7"
+    images = ["/images/twittercard.jpg"]
 
 [permalinks]
    'posts' = '/:year/:month/:filename/'
