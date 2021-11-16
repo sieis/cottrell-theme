@@ -16,26 +16,22 @@ theme = 'eamonn'
 
 [menu]
  [[menu.main]]
-    name = "home"
+    name = "Home"
     url = "/"
-    weight = 0
+    weight = -1
+#  [[menu.main]]
+#     name = "About"
+#     url = "/about"
+#     weight = 1
  [[menu.main]]
-    name = "about"
-    url = "/about"
-    weight = 1
- [[menu.main]]
-    name = "posts"
+    name = "Posts"
     url = "/posts"
     weight = 2
  [[menu.main]]
-    name = "projects"
+    name = "Projects"
     url = "/projects"
     weight = 3
  [[menu.main]]
-    name = "podcasts"
+    name = "Podcasts"
     url = "/podcasts"
     weight = 4
- [[menu.main]]
-    name = "contact"
-    url = "/contact"
-    weight = 5
