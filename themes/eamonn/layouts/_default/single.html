@@ -5,14 +5,8 @@
         {{ .Content}}
     <a href="/{{.Params.section}}" class="">back to {{.Section}}</a>
     <div>
-        {{ with .PrevInSection }}
-          <a class="" href="{{.RelPermalink}}">previous: {{.Title}}</a>
-        {{ end }}<br>
-        {{ with .NextInSection }}
-          <a class="" href="{{.RelPermalink}}">next: {{.Title}}</a>
-        {{ end }}
-    </div>
-    <div>
+      {{ with .PrevInSection }}<a class="" href="{{.RelPermalink}}">previous: {{.Title}}</a>{{ end }}<br>
+      {{ with .NextInSection }}<a class="" href="{{.RelPermalink}}">next: {{.Title}}</a>{{ end }}<br>
       <a href="/">back home</a>
     </div>
 {{ end }}
