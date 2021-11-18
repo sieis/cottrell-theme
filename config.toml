@@ -1,4 +1,4 @@
-baseURL = 'eamonncottrell.com/'
+baseURL = 'https://eamonn.netlify.app/'
 languageCode = 'en-us'
 title = 'Eamonn Cottrell'
 theme = 'eamonn'
