@@ -1,0 +1,37 @@
+{{define "main"}}
+<div class="container col-xxl-10 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src = "{{.Params.image}}" class="d-block mx-lg-auto img-fluid" alt="Typewriter Picture" width="700" height="500" loading="lazy">
+      </div>
+    <div class="col-lg-6">
+      <h1 class="display-3 fw-bold text-gradient lh-1 mb-3 pb-3">My Writings <i class="fas fa-pencil-alt"></i></h1>
+      <p class="fs-3 text-gradient">
+        {{.Params.Subtitle}}<br>
+    </div>
+  </div>
+</div>
+
+<div class="container rounded-3">
+    <div class="row row-cols-1 row-cols-lg-4">
+        {{ range .Pages }}
+        <!-- <div class="col my-3"> -->
+        <div class=" col my-3 card-group">
+            <div class="card g-3 mx-auto">
+              <!-- <div class="card-img-top bg-primary" style="height: 3rem;"></div> -->
+                <img src="{{ .Params.image }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold text-gradient fs-3">{{.Title}}</h5>
+                    <p class="card-text lead">{{.Params.subtitle}}</p>
+                  </div>
+                  <div class="card-footer">
+                    <a href="{{ .Permalink }}" class="btn btn-primary">Read More</a>
+                    <small class="text-muted">Written {{ .Date.Format "Jan 2, 2006" }}</small>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    <a href="/">back home</a>
+</div>
+{{end}}
