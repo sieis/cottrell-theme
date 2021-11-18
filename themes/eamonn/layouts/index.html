@@ -49,6 +49,7 @@
               <!-- footer links depending on which section...different ones have different front matter and link needs -->
               <div class="card-footer text-center">
                 {{ if (eq .Section "posts")}}
+                <p>posts {{.RelPermalink}}</p>
                   <a class="btn btn-lg btn-outline-primary" href="{{.RelPermalink}}">Read More</a>
                 {{end}}
                 {{ if (eq .Section "projects")}}
