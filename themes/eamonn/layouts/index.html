@@ -52,7 +52,8 @@
                   <a class="btn btn-lg btn-outline-primary" href="{{.RelPermalink}}">Read More</a>
                 {{end}}
                 {{ if (eq .Section "projects")}}
-                  <a class="btn btn-lg btn-outline-primary" rel="noopener" target="_blank" href="{{.Params.code}}">Code</a>
+                  <a class="btn btn-lg btn-outline-success" rel="noopener" target="_blank" href="{{.Params.code}}">Code</a>
+                  <a class="btn btn-lg btn-outline-primary" rel="" target="" href="{{.RelPermalink}}">Read More</a>
                   <a class="btn btn-lg btn-outline-secondary" rel="noopener" target="_blank" href="{{.Params.demo}}">Demo</a>
                 {{end}}
                 {{ if (eq .Section "podcasts")}}
