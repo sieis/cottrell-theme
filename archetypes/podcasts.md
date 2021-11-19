@@ -7,4 +7,5 @@ draft: true
 image: "/images"
 section: ""
 trailer: ""
+player: ""
 ---

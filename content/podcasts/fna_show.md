@@ -8,6 +8,7 @@ image: "/images/podcasts/fna2.png"
 section: ""
 layout: ""
 trailer: "https://share.transistor.fm/e/7af633db"
+player: "https://share.transistor.fm/e/fna/playlist"
 ---
 
 The fna show is an aural excursion. an experiment in sound and idea.

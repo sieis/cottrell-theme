@@ -6,12 +6,20 @@
         {{ with .PrevInSection }}<a class="" href="{{.RelPermalink}}">previous: {{.Title}}</a>{{ end }} {{ with .NextInSection }}<a class="" href="{{.RelPermalink}}">next: {{.Title}}</a>{{ end }}
     </small>
         
-    <div>
-        <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="{{.Params.trailer}}"></iframe>
-    </div>
+</div>
+<div class="container">
+    <h2 class="fw-bold">Show Trailer:</h2>
+    <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="{{.Params.trailer}}"></iframe>
 </div>
 <div class="container fs-5">
-    {{.Content}}
+    <div class="my-5">
+        <h2 class="fw-bold">What is this?</h2>
+        {{.Content}}
+    </div>
+    <div class="my-5">
+        <h2 class="fw-bold">Listen to Episodes on the player below:</h2>
+        <iframe width="100%" height="390" frameborder="no" scrolling="no" seamless src="{{.Params.player}}"></iframe>
+    </div>
     <a href="/{{.Params.section}}" class="">back to {{.Section}}</a>
     <div>
       {{ with .PrevInSection }}<a class="" href="{{.RelPermalink}}">previous: {{.Title}}</a>{{ end }}<br>
