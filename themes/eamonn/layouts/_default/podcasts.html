@@ -25,10 +25,8 @@
                     <p class="card-text lead">{{.Params.subtitle}}</p>
                   </div>
                   <div class="card-footer">
-                    {{if (eq .Section "posts")}}<small class="text-muted">Written {{ .Date.Format "Jan 2, 2006" }}</small>{{end}}<br>
-                    {{if (eq .Section "projects")}} <a class="btn btn-sm btn-outline-success" href="{{.Params.code}}">Code</a>{{end}}
+                    <small class="text-muted">Released on {{ .Date.Format "Jan 2, 2006" }}</small><br>
                     <a href="{{ .RelPermalink }}" class="btn btn-sm btn-outline-primary">Read More</a>
-                    {{if (eq .Section "projects")}} <a href="{{.Params.demo}}" class="btn btn-sm btn-outline-secondary">Demo</a>{{end}}
                 </div>
             </div>
         </div>

@@ -2,11 +2,13 @@
 <div class="container text-center my-3">
     <img class="img-fluid rounded" src="{{.Params.image}}" alt="{{.Params.subtitle}}">
     <h1 class="display-1 fw-bold">{{.Title}}</h1>
-    <small class="lead">Published on {{.Date.Format "Jan 2, 2006"}} by {{.Params.Author}}<br>
+    <small class="lead">by {{.Params.Author}}<br>
         {{ with .PrevInSection }}<a class="" href="{{.RelPermalink}}">previous: {{.Title}}</a>{{ end }} {{ with .NextInSection }}<a class="" href="{{.RelPermalink}}">next: {{.Title}}</a>{{ end }}
     </small>
         
-    <hr>
+    <div>
+        <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="{{.Params.trailer}}"></iframe>
+    </div>
 </div>
 <div class="container fs-5">
     {{.Content}}

@@ -2,7 +2,7 @@
 title: "Re Verse"
 author: "Eamonn Cottrell"
 subtitle: "Scripture Soundtracks"
-date: 2021-11-12T14:04:34-05:00
+date: 2019-11-07T14:04:34-05:00
 draft: false
 image: "/images/podcasts/reverse2.png"
 section: "podcasts"

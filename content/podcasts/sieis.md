@@ -2,7 +2,7 @@
 title: "Sieis Soundtracks"
 author: "Eamonn Cottrell"
 subtitle: "Ephemeral Soundscapes"
-date: 2021-11-11T14:50:57-05:00
+date: 2011-06-14T14:50:57-05:00
 draft: false
 image: "/images/podcasts/sieis2.png"
 section: "podcasts"
