@@ -7,7 +7,7 @@ theme = 'eamonn'
 [params]
    subtitle = "tech advocate | web developer | podcast composer"
     description = "Eamonn Cottrell's homepage for writings about tech, web projects and podcast."
-    metaimage = "/images/twittercard.png"
+    metaimage = "/images/twittercard.jpg"
     gtag = "G-YML43Q3HZ7"
     images = ["/images/twittercard.jpg"]
 
