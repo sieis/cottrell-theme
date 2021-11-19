@@ -1,0 +1,17 @@
+{{define "main"}}
+<div class="container text-center my-3">
+    <img class="img-fluid rounded" src="{{.Params.image}}" alt="{{.Params.subtitle}}">
+    <h1 class="display-1 fw-bold">{{.Title}}</h1>
+    <small class="lead">Published on {{.Date.Format "Jan 2, 2006"}} by {{.Params.Author}}</small>
+    <hr>
+</div>
+<div class="container fs-5">
+    {{.Content}}
+    <a href="/{{.Params.section}}" class="">back to {{.Section}}</a>
+    <div>
+      {{ with .PrevInSection }}<a class="" href="{{.RelPermalink}}">previous: {{.Title}}</a>{{ end }}<br>
+      {{ with .NextInSection }}<a class="" href="{{.RelPermalink}}">next: {{.Title}}</a>{{ end }}<br>
+      <a href="/">back home</a>
+    </div>
+</div>
+{{end}}

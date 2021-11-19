@@ -1,5 +1,6 @@
 ---
 title: "Web3"
+author: "Eamonn Cottrell"
 subtitle: "Smart Contracts & Web3 with BuildSpace"
 date: 2021-10-01T12:18:32-05:00
 draft: false
