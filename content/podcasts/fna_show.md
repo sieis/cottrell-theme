@@ -1,10 +1,12 @@
 ---
 title: "Fna Show"
+author: "Eamonn Cottrell"
 subtitle: "An Experiment in Sound and Idea"
 date: 2021-11-10T13:32:11-05:00
 draft: false
 image: "/images/podcasts/fna2.png"
 section: "podcasts"
+trailer: "https://share.transistor.fm/e/7af633db"
 ---
 
 The fna show is an aural excursion. an experiment in sound and idea.
