@@ -5,7 +5,7 @@
     <!-- ========================= Meta for iMessage previews ========================= -->
     <meta property="og:title" content="{{.Title}}" />
     
-    <meta name="description" content="{{ if .Params.description}}{{.Params.description}}{{else}}{{.Site.Params.Description}}{{end}}"/>
+    <meta name="description" content="{{ if .Params.description}}{{.Params.description}}{{else if .Params.subtitle}}{{.Params.subtitle}} by Eamonn Cottrell{{else}}{{.Site.Params.Description}}{{end}}"/>
     <!-- ========================= DON'T FORGET TO CHANGE CONTENT ADDRESS OF OG:IMAGE ========================= -->
     <meta property="og:image" content="{{.Site.Params.metaimage}}"/>
     <!-- ========================= bootstrap 5 ========================= -->
