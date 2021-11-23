@@ -7,5 +7,6 @@ image: "/images/projects/project.svg"
 alt: "Project image"
 section: ""
 layout: "posts"
+description: "Eamonn Cottrell's web projects. Eamonn is a web developer based in the southeastern United States and specializes in crafting bespoke web experiences for small businesses, creative professionals and his own myriad interests."
 ---
 

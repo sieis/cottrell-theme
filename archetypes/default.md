@@ -6,5 +6,6 @@ date: {{ .Date }}
 draft: true
 image: "/images"
 section: ""
+description: ""
 ---
 

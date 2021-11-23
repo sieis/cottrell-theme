@@ -10,5 +10,6 @@ code: ""
 demo: ""
 problem: "Problem to solve:"
 solution: ""
+description: ""
 ---
 

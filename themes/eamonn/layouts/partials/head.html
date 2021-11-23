@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ========================= Meta for iMessage previews ========================= -->
     <meta property="og:title" content="{{.Title}}" />
-    <meta name="description" content="{{.Site.Params.description}}" />
+    
+    <meta name="description" content="{{ if .Params.description}}{{.Params.description}}{{else}}{{.Site.Params.Description}}{{end}}"/>
     <!-- ========================= DON'T FORGET TO CHANGE CONTENT ADDRESS OF OG:IMAGE ========================= -->
     <meta property="og:image" content="{{.Site.Params.metaimage}}"/>
     <!-- ========================= bootstrap 5 ========================= -->
@@ -25,7 +26,6 @@
     <meta name="theme-color" content="#ffffff">
     <!-- animate js -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
     <!-- Twitter Card -->
     {{ template "_internal/twitter_cards.html" . }}
 

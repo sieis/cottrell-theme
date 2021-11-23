@@ -7,5 +7,6 @@ image: "/images/posts/typewriter.svg"
 section: ""
 layout: ""
 alt: "Typewriter Picture"
+description: "Eamonn Cottrell's articles. Eamonn is based in the southeastern United States and writes about technology, podcasting and other fun things."
 ---
 

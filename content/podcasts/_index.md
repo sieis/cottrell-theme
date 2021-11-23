@@ -7,5 +7,6 @@ image: "/images/podcasts/podcasts.svg"
 alt: "music picture"
 section: ""
 layout: "podcasts"
+description: "Eamonn Cottrell's podcasts. Eamonn has been producing and recording podcasts since before it was cool back in 2006. He specializes in music-centric orchestrations."
 ---
 
