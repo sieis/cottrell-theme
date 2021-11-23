@@ -29,6 +29,9 @@
     <!-- Twitter Card -->
     {{ template "_internal/twitter_cards.html" . }}
 
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="{{.Permalink}}">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     {{ $gtag := print "https://www.googletagmanager.com/gtag/js?id=" .Site.Params.gtag }}
     <script async src="{{ $gtag }}"></script>
