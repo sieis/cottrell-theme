@@ -10,6 +10,8 @@ section: ""
 ---
 ## Localhost: 1313
 
+11/24/21 update: check out a follow up post with some SEO addons in [this post]({{<ref "/posts/seo.md">}}).
+
 I had a fair amount of success building a template for a niche audience recently: recovery groups in need of a basic, but functional and modern web presence. It ended up being more detailed than I had anticipated, even for the small nature of that template, but I thoroughly enjoyed the process.
 
 I am now in the middle of coding another template for my own portfolio. I'm using #hugo again, and have had a blast building this thing from the ground up.
