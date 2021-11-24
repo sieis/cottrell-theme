@@ -43,7 +43,8 @@ I've also added a description field to each of my archetypes so any page I creat
 
 I've added this to the main pages
 
-For URL canonization, I simply added ``` html 
+For URL canonization, I simply added 
+``` html 
 <link rel="canonical" href="{{.Permalink}}">
 ``` 
 to the head template fore every page.
