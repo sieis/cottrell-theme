@@ -5,6 +5,7 @@ subtitle: "or How I Learned to Stop Thinking and Love the Thoughts"
 date: 2021-10-24T13:52:01-05:00
 draft: false
 image: "/images/posts/recursion.png"
+alt: "image of robot losing its head"
 section: "posts"
 ---
 

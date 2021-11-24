@@ -1,6 +1,6 @@
 {{define "main"}}
 <div class="container text-center my-3">
-    <img class="img-fluid rounded" src="{{.Params.image}}" alt="{{.Params.subtitle}}">
+    <img class="img-fluid rounded" src="{{.Params.image}}" alt="{{.Params.alt}}">
     <h1 class="display-1 fw-bold">{{.Title}}</h1>
     <small class="lead">by {{.Params.Author}}<br>
         {{ with .PrevInSection }}<a class="" href="{{.RelPermalink}}">previous: {{.Title}}</a>{{ end }} {{ with .NextInSection }}<a class="" href="{{.RelPermalink}}">next: {{.Title}}</a>{{ end }}

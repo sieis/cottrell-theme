@@ -5,12 +5,14 @@ subtitle: "Adding dynamic meta descriptions and canonical link tags to Hugo site
 date: 2021-11-23T16:27:02-05:00
 draft: false
 image: "/images/posts/seo.png"
+alt: "Work illustration by Storyset"
 section: ""
 description: "A quick primer on updating my Hugo site to include custom meta descriptions on each page as well as canonical link tags for each page."
 attribute: "Work illustrations by Storyset: https://storyset.com/work"
 ---
+## Meta & Canonical Tags
 
-So I need to do some meta work
+So I need to do some meta work. I've touched on the Hugo theme that I built for my home page [here]({{< ref "/posts/portfolio.md" >}} "About Us"), but this only covered the very basics of going live. Time to add some details!
 
 I've already added a few meta tags to my head, but I'd like to dynamically generate the meta description depending on which page is being viewed.
 
@@ -41,10 +43,11 @@ I've also added a description field to each of my archetypes so any page I creat
 
 I've added this to the main pages
 
-For URL canonization, I simply added a 
-``` html
+For URL canonization, I simply added ``` html 
 <link rel="canonical" href="{{.Permalink}}">
 ``` 
 to the head template fore every page.
+
+Hugo has some interesting content-management information regarding links, URLS and Canonicalization available in their docs [here](https://gohugo.io/content-management/urls/), but I found that the simple Permalink in each of my pages' head was sufficient for my purposes..
 
 

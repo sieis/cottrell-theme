@@ -5,6 +5,7 @@ subtitle: "Ultramarathon Home Page"
 date: 2021-03-12T14:09:09-05:00
 draft: false
 image: "/images/projects/pinhoti.png"
+alt: "screenshot of racing website"
 section: "projects"
 code: "https://github.com/sieis/pinhoti100"
 demo: "https://pinhoti100.netlify.app/"

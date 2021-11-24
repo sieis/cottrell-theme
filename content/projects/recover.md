@@ -5,6 +5,7 @@ subtitle: "A Hugo Theme for Recovery Groups"
 date: 2021-11-11T13:58:56-05:00
 draft: false
 image: "/images/projects/tn.png"
+alt: "Image of website on computer and tablet"
 code: "https://github.com/sieis/re-cover"
 demo: "https://re-cover-hugo-demo.netlify.app/"
 section: "projects"

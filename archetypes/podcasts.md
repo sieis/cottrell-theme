@@ -5,6 +5,7 @@ subtitle: ""
 date: {{ .Date }}
 draft: true
 image: "/images"
+alt: ""
 section: ""
 trailer: ""
 player: ""

@@ -5,6 +5,7 @@ subtitle: "Scripture Soundtracks"
 date: 2019-11-07T14:04:34-05:00
 draft: false
 image: "/images/podcasts/reverse2.png"
+alt: "re-verse logo of a bible with headphones on"
 section: "podcasts"
 trailer: "https://share.transistor.fm/e/7d3f1f44"
 player: "https://share.transistor.fm/e/re-verse/playlist"

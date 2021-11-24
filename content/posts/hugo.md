@@ -5,6 +5,7 @@ subtitle: "Making a Hugo Theme"
 date: 2021-11-04T13:11:51-05:00
 draft: false
 image: "/images/posts/hugo.png"
+alt: "Hugo banner image"
 section: ""
 layout: ""
 ---

@@ -5,6 +5,7 @@ subtitle: "Ephemeral Soundscapes"
 date: 2011-06-14T14:50:57-05:00
 draft: false
 image: "/images/podcasts/sieis2.png"
+alt: "Sieis Soundtracks logo of keyboard hooked up to speaker"
 section: "podcasts"
 trailer: "https://share.transistor.fm/e/453ff54f"
 player: "https://share.transistor.fm/e/re-verse/playlist"
