@@ -47,7 +47,7 @@ For URL canonization, I simply added
 ``` html 
 <link rel="canonical" href="{{.Permalink}}">
 ``` 
-to the head template ore every page.
+to the head template for every page.
 
 Hugo has some interesting content-management information regarding links, URLS and Canonicalization available in their docs [here](https://gohugo.io/content-management/urls/), but I found that the simple Permalink in each of my pages' head was sufficient for my purposes.
 
