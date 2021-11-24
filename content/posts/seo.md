@@ -12,7 +12,7 @@ attribute: "Work illustrations by Storyset: https://storyset.com/work"
 ---
 ## Meta & Canonical Tags
 
-So I need to do some meta work. I've touched on the Hugo theme that I built for my home page [here]({{< ref "/posts/portfolio.md" >}} "About Us"), but this only covered the very basics of going live. Time to add some details!
+So I need to do some meta work. I've touched on the Hugo theme that I built for my home page [here]({{< ref "/posts/portfolio.md" >}}), but this only covered the very basics of going live. Time to add some details!
 
 I've already added a few meta tags to my head, but I'd like to dynamically generate the meta description depending on which page is being viewed.
 
