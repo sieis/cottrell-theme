@@ -41,13 +41,13 @@ If there's a description in an individual page's front matter, then that'll be u
 
 I've also added a description field to each of my archetypes so any page I create will have that in the front matter. 
 
-I've added this to the main pages
+I've added this to the main pages.
 
 For URL canonization, I simply added 
 ``` html 
 <link rel="canonical" href="{{.Permalink}}">
 ``` 
-to the head template fore every page.
+to the head template ore every page.
 
 Hugo has some interesting content-management information regarding links, URLS and Canonicalization available in their docs [here](https://gohugo.io/content-management/urls/), but I found that the simple Permalink in each of my pages' head was sufficient for my purposes.
 
