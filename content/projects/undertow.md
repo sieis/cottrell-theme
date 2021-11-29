@@ -13,3 +13,6 @@ problem: "Needed a home page for multiple podcasts under one network umbrella"
 solution: "Custom coded a landing page for a selection of my podcasts"
 ---
 
+This is the homepage for my podcast network. I've been podcasting since 2006, and been spinning up new ideas for experimental shows since about that time too.
+
+I coded this site using Bootstrap 4 and custom CSS. It is a minimal landing page with players for some of my current shows. 

@@ -7,7 +7,7 @@ draft: false
 image: "/images/podcasts/reverse2.png"
 alt: "re-verse logo of a bible with headphones on"
 section: "podcasts"
-trailer: "https://share.transistor.fm/e/7d3f1f44"
+trailer: "https://share.transistor.fm/e/b7a51d5e"
 player: "https://share.transistor.fm/e/re-verse/playlist"
 ---
 
