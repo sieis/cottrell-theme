@@ -11,7 +11,7 @@ section: ""
 description: ""
 ---
 
-Hey there!
+## Hey there!
 
 I am the proud father of 3 (with one more on the way in 2022), I'm married to my best friend, and I love creating things.
 
@@ -36,4 +36,24 @@ I've got a
     - HTML/CSS/Javascript (freeCodeCamp)
     - Data Analytics (Google)
 
+I'm comfortable with
+
+- HTML/CSS/Javascript
+- Adobe Illustrator
+- Abelton Live & Pro Tools
+- Quickbooks & Excel
+- Git & Github
+- Netlify & Wordpress
+- Learning anything
+- Hugo
+
+I'm familiar with
+
+- Python, R & SQL
+- Tableau & Big Query
+- NodeJS
+- 
+
+
 I love web development and making functional sites for businesses and individuals.
+
