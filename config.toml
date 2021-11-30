@@ -5,33 +5,33 @@ theme = 'eamonn'
 
 
 [params]
-   subtitle = "tech advocate | web developer | podcast composer"
-    description = "Eamonn is a web developer, tech advocate and podcast composer based in the southeastern United States."
-    metaimage = "/images/twittercard.jpg"
-    gtag = "G-YML43Q3HZ7"
-    images = ["/images/twittercard.jpg"]
+subtitle = "tech advocate | web developer | podcast composer"
+description = "Eamonn is a web developer, tech advocate and podcast composer based in the southeastern United States."
+metaimage = "/images/twittercard.jpg"
+gtag = "G-YML43Q3HZ7"
+images = ["/images/twittercard.jpg"]
 
 [permalinks]
-   'posts' = '/:year/:month/:filename/'
+'posts' = '/:year/:month/:filename/'
 
 [menu]
- [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = -1
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = -1
 #  [[menu.main]]
 #     name = "About"
 #     url = "/about"
 #     weight = 1
- [[menu.main]]
-    name = "Posts"
-    url = "/posts"
-    weight = 2
- [[menu.main]]
-    name = "Projects"
-    url = "/projects"
-    weight = 3
- [[menu.main]]
-    name = "Podcasts"
-    url = "/podcasts"
-    weight = 4
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+[[menu.main]]
+name = "Projects"
+url = "/projects"
+weight = 3
+[[menu.main]]
+name = "Podcasts"
+url = "/podcasts"
+weight = 4
