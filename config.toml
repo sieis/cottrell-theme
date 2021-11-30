@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'Eamonn Cottrell'
 theme = 'eamonn'
 
+enableEmoji = true
+
 
 [params]
 subtitle = "tech advocate | web developer | podcast composer"

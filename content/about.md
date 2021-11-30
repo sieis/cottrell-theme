@@ -15,7 +15,7 @@ description: ""
 
 I am the proud father of 3 (with one more on the way in 2022), I'm married to my best friend, and I love creating things.
 
-### :hammer_and_wrench: I've been a
+### :fire: I've been a
  
 - website developer
 - podcast producer
@@ -26,7 +26,7 @@ I am the proud father of 3 (with one more on the way in 2022), I'm married to my
 - general manager
 - small business analyst
 
-### :books: I've got a
+### :book: I've got a
 
 - Bachelor's in Business Administration
 - Associate's in Engineering
@@ -56,5 +56,5 @@ I am the proud father of 3 (with one more on the way in 2022), I'm married to my
 - MongoDB
 
 
-I :hearts: web development and making functional sites for businesses and individuals.
+I :heart: web development and making functional sites for businesses and individuals.
 
