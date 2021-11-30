@@ -1,4 +1,4 @@
-# eamonn
+# :boom: eamonn :boom:
 
 ## Yet another Hugo Portfolio Theme :grin:
 
