@@ -11,11 +11,11 @@ section: ""
 description: ""
 ---
 
-## Hey there!
+## :wave: Hey there!
 
 I am the proud father of 3 (with one more on the way in 2022), I'm married to my best friend, and I love creating things.
 
-I've been a
+### :hammer_and_wrench: I've been a
  
 - website developer
 - podcast producer
@@ -26,7 +26,7 @@ I've been a
 - general manager
 - small business analyst
 
-I've got a
+### :books: I've got a
 
 - Bachelor's in Business Administration
 - Associate's in Engineering
@@ -36,7 +36,7 @@ I've got a
     - HTML/CSS/Javascript (freeCodeCamp)
     - Data Analytics (Google)
 
-I'm comfortable with
+### :battery: I'm comfortable with
 
 - HTML/CSS/Javascript
 - Adobe Illustrator
@@ -48,7 +48,7 @@ I'm comfortable with
 - Learning anything
 - Hugo
 
-I'm familiar with
+### :bulb: I'm familiar with
 
 - Python, R & SQL
 - Tableau & Big Query
@@ -56,5 +56,5 @@ I'm familiar with
 - MongoDB
 
 
-I love web development and making functional sites for businesses and individuals.
+I :hearts: web development and making functional sites for businesses and individuals.
 
