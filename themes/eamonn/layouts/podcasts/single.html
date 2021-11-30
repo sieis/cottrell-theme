@@ -20,7 +20,7 @@
         <h2 class="fw-bold">Listen to Episodes on the player below:</h2>
         <iframe width="100%" height="390" frameborder="no" scrolling="no" seamless src="{{.Params.player}}"></iframe>
     </div>
-    <a href="/{{.Params.section}}" class="">back to {{.Section}}</a>
+    <a href="/{{.Section}}" class="">back to {{.Section}}</a>
     <div>
       {{ with .PrevInSection }}<a class="" href="{{.RelPermalink}}">previous: {{.Title}}</a>{{ end }}<br>
       {{ with .NextInSection }}<a class="" href="{{.RelPermalink}}">next: {{.Title}}</a>{{ end }}<br>

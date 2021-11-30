@@ -121,7 +121,19 @@ and then put the src for the player in the episode's Front Matter.
 
 There are still things needed as I improve the site's functionality and my own knowledge of Hugo. Noteable next additions:
 
-1. An about page. Duh.
 1. Form submissions
 1. Tags for posts
-1.
+
+## About
+
+I've got a simple about page live now. I copied the html layout from my ```/_default/single.html``` for now and removed:
+
+``` css
+<a href="/{{.Section}}" class="">back to {{.Section}}</a>
+```
+
+I also added 
+``` toml
+layout: "about"
+```
+in the front matter to point it to the correct layout.

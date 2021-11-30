@@ -9,8 +9,8 @@
     <hr>
 </div>
 <div class="container fs-5">
+    this is from the about.html
     {{.Content}}
-    <a href="/{{.Section}}" class="">back to {{.Section}}</a>
     <div>
       {{ with .PrevInSection }}<a class="" href="{{.RelPermalink}}">previous: {{.Title}}</a>{{ end }}<br>
       {{ with .NextInSection }}<a class="" href="{{.RelPermalink}}">next: {{.Title}}</a>{{ end }}<br>
