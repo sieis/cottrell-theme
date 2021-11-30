@@ -44,6 +44,7 @@ I'm comfortable with
 - Quickbooks & Excel
 - Git & Github
 - Netlify & Wordpress
+- Google Suite
 - Learning anything
 - Hugo
 
@@ -52,7 +53,7 @@ I'm familiar with
 - Python, R & SQL
 - Tableau & Big Query
 - NodeJS
-- 
+- MongoDB
 
 
 I love web development and making functional sites for businesses and individuals.
