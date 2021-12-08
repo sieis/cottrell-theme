@@ -1,5 +1,6 @@
 ---
 title: "Portfolio"
+slug: "code a custom hugo portfolio theme"
 author: "Eamonn Cottrell"
 subtitle: "Building a Hugo Themed Portfolio Site"
 date: 2021-11-19T15:05:09-05:00

@@ -1,5 +1,6 @@
 ---
 title: "Recursion"
+slug: "some thoughts on recursion on some thoughts on recursion"
 author: "Eamonn Cottrell"
 subtitle: "or How I Learned to Stop Thinking and Love the Thoughts"
 date: 2021-10-24T13:52:01-05:00

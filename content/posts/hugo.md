@@ -1,5 +1,6 @@
 ---
 title: "Go Go Hugo"
+slug: "code a hugo theme for recovery groups"
 author: "Eamonn Cottrell"
 subtitle: "Making a Hugo Theme"
 date: 2021-11-04T13:11:51-05:00

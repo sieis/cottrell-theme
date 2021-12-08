@@ -1,5 +1,6 @@
 ---
 title: "SEO"
+slug: "initial seo tips and tweaks"
 author: "Eamonn Cottrell"
 subtitle: "Adding dynamic meta descriptions and canonical link tags to Hugo sites"
 date: 2021-11-23T16:27:02-05:00

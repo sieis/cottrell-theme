@@ -1,5 +1,6 @@
 ---
 title: "Web3"
+slug: "web3 and the beginning of the end of centralization"
 author: "Eamonn Cottrell"
 subtitle: "Smart Contracts & Web3 with BuildSpace"
 date: 2021-10-01T12:18:32-05:00
