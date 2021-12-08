@@ -1,5 +1,6 @@
 ---
 title: "Running 100 Miles"
+slug: "run 100 miles and learn to code"
 author: "Eamonn Cottrell"
 subtitle: "The mindset and the rewards of running 100 miles and learning to code."
 date: 2021-12-08T14:45:47-05:00

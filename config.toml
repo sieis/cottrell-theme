@@ -14,7 +14,7 @@ gtag = "G-YML43Q3HZ7"
 images = ["/images/twittercard.jpg"]
 
 [permalinks]
-'posts' = '/:year/:month/:filename/'
+'posts' = '/:slug/'
 
 [menu]
 [[menu.main]]
