@@ -6,7 +6,8 @@ subtitle: "The mindset and the rewards of running 100 miles and learning to code
 date: 2021-12-08T14:45:47-05:00
 draft: false
 image: "/images/posts/100mile/100mile.png"
-alt: "/images/posts/100mile/100mile.jpg"
+alt: ""
+altimage: "/images/posts/100mile/100mile.jpg"
 section: ""
 description: ""
 ---

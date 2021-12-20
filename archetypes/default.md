@@ -5,7 +5,7 @@ author: "Eamonn Cottrell"
 subtitle: ""
 date: {{ .Date }}
 draft: true
-image: "/images"
+image: "/images/posts/"
 alt: ""
 section: ""
 description: ""
