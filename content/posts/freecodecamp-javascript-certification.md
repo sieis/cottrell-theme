@@ -28,9 +28,9 @@ And thus, I came back to freeCodeCamp.
 
 Throughout the course of the Javascript Algorithms and Data Structures material, I was grateful for the bite-sized lessons that have you learning bits and pieces of the language and the mechanisms to program with it. But beyond that, the projects were where I could tell the true tests stood. They were always challenging enough to not breeze through, but not impossible to comprehend either.
 
-## Elegance? A Roman Numberal Converter
+## Elegance? A Roman Numeral Converter
 
-In the final projects, I can certainly see my own amateur abilities, however, it's hard to overvalue the thrill of a working piece of code no matter how muddled its guts are. For the Roman Numeral Converter problem, we were tasked with converting any given number into its Roman Numberal counterpart. As I look back over my code now, it is a lengthy mess of ``` if ``` statements following a giant object holding the various iterations of Roman Numerals with which I glued together my solution.
+In the final projects, I can certainly see my own amateur abilities, however, it's hard to overvalue the thrill of a working piece of code no matter how muddled its guts are. For the Roman Numeral Converter problem, we were tasked with converting any given number into its Roman Numeral counterpart. As I look back over my code now, it is a lengthy mess of ``` if ``` statements following a giant object holding the various iterations of Roman Numerals with which I glued together my solution.
 
 
 A part of me knows there are more elegant ways to come to the solution, but puzzling through this on my own without seeking any outside help was where the learning truly took place.
