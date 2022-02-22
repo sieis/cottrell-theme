@@ -26,14 +26,18 @@ weight = -1
     url = "/about"
     weight = 1
 [[menu.main]]
-name = "Posts"
-url = "/posts"
+name = "Hashnode Blog (new)"
+url = "https://blog.eamonncottrell.com/"
 weight = 2
+[[menu.main]]
+name = "Posts(old)"
+url = "/posts"
+weight = 3
 [[menu.main]]
 name = "Projects"
 url = "/projects"
-weight = 3
+weight = 4
 [[menu.main]]
 name = "Podcasts"
 url = "/podcasts"
-weight = 4
+weight = 5
