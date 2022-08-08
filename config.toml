@@ -7,8 +7,8 @@ enableEmoji = true
 
 
 [params]
-subtitle = "tech advocate | web developer | podcast composer"
-description = "Eamonn is a web developer, tech advocate and podcast composer based in the southeastern United States."
+subtitle = "web design and development"
+description = "Eamonn is a web developer and tech writer based in the southeastern United States."
 metaimage = "/images/twittercard.jpg"
 gtag = "G-YML43Q3HZ7"
 images = ["/images/twittercard.jpg"]
@@ -26,18 +26,18 @@ weight = -1
     url = "/about"
     weight = 1
 [[menu.main]]
-name = "Hashnode Blog (new)"
-url = "https://blog.eamonncottrell.com/"
-weight = 2
+    name = "Hashnode Blog (new)"
+    url = "https://blog.eamonncottrell.com/"
+    weight = 2
 [[menu.main]]
-name = "Posts(old)"
-url = "/posts"
-weight = 3
+    name = "Posts(old)"
+    url = "/posts"
+    weight = 3
 [[menu.main]]
-name = "Projects"
-url = "/projects"
-weight = 4
+    name = "Projects"
+    url = "/projects"
+    weight = 4
 [[menu.main]]
-name = "Podcasts"
-url = "/podcasts"
-weight = 5
+    name = "Podcasts"
+    url = "/podcasts"
+    weight = 5
