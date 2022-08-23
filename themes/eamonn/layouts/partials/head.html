@@ -3,12 +3,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- ========================= Meta for iMessage previews ========================= -->
-  <meta property="og:title" content="{{.Title}}" />
-
-  <meta name="description"
-    content="{{ if .Params.description}}{{.Params.description}}{{else if .Params.subtitle}}{{.Params.subtitle}} by Eamonn Cottrell{{else}}{{.Site.Params.Description}}{{end}}" />
-  <!-- ========================= DON'T FORGET TO CHANGE CONTENT ADDRESS OF OG:IMAGE ========================= -->
-  <meta property="og:image" content="{{.Site.Params.metaimage}}" />
+  <meta name="description" content="{{ if .Params.description}}{{.Params.description}}{{else if .Params.subtitle}}{{.Params.subtitle}} by Eamonn Cottrell{{else}}{{.Site.Params.Description}}{{end}}" />
+  <!-- Twitter Card -->
+  {{ template "_internal/opengraph.html" . }}
+  <!-- OG tags -->
+  {{ template "_internal/twitter_cards.html" . }}
   <!-- ========================= bootstrap 5 ========================= -->
   <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
   <!-- ========================= other css ========================= -->
@@ -27,14 +26,6 @@
   <meta name="theme-color" content="#ffffff">
   <!-- animate css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <!-- OG tags -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.eamonncottrell.com/">
-  <meta property="og:title" content="Eamonn Cottrell">
-  <meta property="og:description" content="Eamonn is a web developer and tech writer based in the southeastern United States.">
-  <meta property="og:image" content="https://eamonncottrell.com/images/twittercard.jpg">
-  <!-- Twitter Card -->
-  {{ template "_internal/twitter_cards.html" . }}
 
   <!-- Canonical Tag -->
   <link rel="canonical" href="{{.Permalink}}">

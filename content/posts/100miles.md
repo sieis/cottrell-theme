@@ -6,10 +6,11 @@ subtitle: "The mindset and the rewards of running 100 miles and learning to code
 date: 2021-12-08T14:45:47-05:00
 draft: false
 image: "/images/posts/100mile/100mile.png"
+images: ["/images/posts/100mile/100mile.png"]
 alt: ""
 altimage: "/images/posts/100mile/100mile.jpg"
 section: ""
-description: ""
+description: "How resilience and persistence in endurance running pays off in programming."
 ---
 
 What a dumb headline, right? You probably don't even want to run 100 miles. But thanks for clicking it anyway! :) The facts:
