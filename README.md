@@ -69,25 +69,28 @@ I wanted different descriptions for different pages, and the ability to tailor f
   <meta name="description"
     content="{{ if .Params.description}}{{.Params.description}}{{else if .Params.subtitle}}{{.Params.subtitle}} by Eamonn Cottrell{{else}}{{.Site.Params.Description}}{{end}}" />
 ```
+
+### Twitter && OG
+
+Hugo has some built in templates that pull from the front-matter of posts, projects or podcasts. Or, it'll pull from the site [params] if there's nothing in the front matter.
+
+```html
+  <!-- Twitter Card -->
+  {{ template "_internal/opengraph.html" . }}
+  <!-- OG tags -->
+  {{ template "_internal/twitter_cards.html" . }}
+```
+
 ### Favicons
 
 I use [realfavicongenerator](https://realfavicongenerator.net/). It's pretty straightforward, and provides easy to follow instructions. Making sure to link these correctly in the head is important.
 
-### Twitter Cards
-
-Hugo supplies this template.
-
-``` go
-  {{ template "_internal/twitter_cards.html" . }}
-```
-
-You just need to supply an image to use for the Twitter Card in ```/static/images/```
-
 ### Canonical Tag
 
-I opted to create a canonical tag for every page by doing this:
+I opted to create a canonical tag for every page by doing this in the head. This gives me the option to specify a canonical link in the front matter if necessary, and for it to simply be the {{`.Permalink`}} if not.
 ``` css
-<link rel="canonical" href="{{.Permalink}}">
+<!-- Canonical Tag -->
+  <link rel="canonical" href="{{ if .Params.canonical }}{{.Params.canonical}}{{else}}{{.Permalink}}{{end}}">
 ```
 
 ### Google Analytics
@@ -128,7 +131,7 @@ I've got a simple about page live now. I copied the html layout from my ```/_def
 ```
 
 I also added 
-``` toml
+``` yaml
 layout: "about"
 ```
 in the front matter to point it to the correct layout.

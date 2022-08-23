@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <!-- Canonical Tag -->
-  <link rel="canonical" href="{{.Permalink}}">
+  <link rel="canonical" href="{{ if .Params.canonical }}{{.Params.canonical}}{{else}}{{.Permalink}}{{end}}">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   {{ $gtag := print "https://www.googletagmanager.com/gtag/js?id=" .Site.Params.gtag }}

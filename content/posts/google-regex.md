@@ -10,6 +10,7 @@ images: ["/images/projects/google-sheets-regex-blog.jpg"]
 alt: ""
 section: ""
 description: "Dynamically Display Images on Google Sheets from Google Drive"
+canonical: "https://www.freecodecamp.org/news/google-sheets-use-regex-and-vlookup-to-display-images-from-google-drive/"
 ---
 
 > [Originally published on freeCodeCamp.](https://www.freecodecamp.org/news/google-sheets-use-regex-and-vlookup-to-display-images-from-google-drive/)
