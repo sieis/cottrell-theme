@@ -6,9 +6,10 @@ subtitle: "Making a Hugo Theme"
 date: 2021-11-04T13:11:51-05:00
 draft: false
 image: "/images/posts/hugo.png"
+images: ["/images/posts/hugo.png"]
 alt: "Hugo banner image"
 section: "posts"
-layout: ""
+layout: "Making a Hugo theme"
 ---
 
 This past week, I've put together my first legit theme for Hugo, and it's for a pretty niche audience: recovery groups.

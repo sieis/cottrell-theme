@@ -5,11 +5,13 @@ subtitle: "An Experiment in Sound and Idea"
 date: 2006-05-19T13:32:11-05:00
 draft: false
 image: "/images/podcasts/fna2.png"
+images: ["/images/podcasts/fna2.png"]
 alt: "fna show log of speaker with headphones around it"
 section: ""
 layout: ""
 trailer: "https://share.transistor.fm/e/7af633db"
 player: "https://share.transistor.fm/e/fna/playlist"
+description: "An Experiment in Sound and Idea"
 ---
 
 The fna show is an aural excursion. an experiment in sound and idea.

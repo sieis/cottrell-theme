@@ -6,6 +6,7 @@ subtitle: "Adding dynamic meta descriptions and canonical link tags to Hugo site
 date: 2021-11-23T16:27:02-05:00
 draft: false
 image: "/images/posts/seo.png"
+images: ["/images/posts/seo.png"]
 alt: "Work illustration by Storyset"
 section: ""
 description: "A quick primer on updating my Hugo site to include custom meta descriptions on each page as well as canonical link tags for each page."

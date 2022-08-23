@@ -5,13 +5,14 @@ subtitle: ""
 date: 2022-03-22T13:49:23-04:00
 draft: false
 image: "/images/projects/sacred-geometry.jpg"
+images: ["/images/projects/sacred-geometry.jpg"]
 alt: ""
 section: ""
 code: "https://eamonn.gumroad.com/l/sacred-geometry"
 demo: "https://www.youtube.com/watch?v=yKP609MObYY&list=PLM4kOja-yPM4dmktN5YpLKjHY2VmU3tFy&index=2"
 problem: "Problem to solve:"
 solution: ""
-description: ""
+description: "A free geometric HD wallpaper product"
 ---
 
 ## Design 

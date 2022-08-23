@@ -6,8 +6,10 @@ subtitle: "or How I Learned to Stop Thinking and Love the Thoughts"
 date: 2021-10-24T13:52:01-05:00
 draft: false
 image: "/images/posts/recursion.png"
+images: ["/images/posts/recursion.png"]
 alt: "image of robot losing its head"
 section: "posts"
+description: "Thoughts on recursion on recursion"
 ---
 
 I'm not a genius, but I have managed to accumulate a fair amount of know-how about a lot of things from specialty coffee to writing fiction to web development.

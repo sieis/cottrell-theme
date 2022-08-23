@@ -5,13 +5,14 @@ subtitle: ""
 date: 2022-02-22T16:13:16-05:00
 draft: false
 image: "/images/projects/personal-finance-tracker.png"
+images: ["/images/projects/personal-finance-tracker.png"]
 alt: ""
 section: ""
 code: "https://eamonn.gumroad.com/l/personalfinance"
 demo: "https://docs.google.com/spreadsheets/d/1GQP0bzdLkzZj69DsyRdtyTF0-KOVYVzqs3-fd67Ldi0/edit#gid=2127387066"
 problem: "Problem to solve:"
 solution: ""
-description: ""
+description: "A free Google Sheets Finance Tracker"
 ---
 
 ## A Yearly Tradition; a New Year's First Project

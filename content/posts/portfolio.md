@@ -6,8 +6,10 @@ subtitle: "Building a Hugo Themed Portfolio Site"
 date: 2021-11-19T15:05:09-05:00
 draft: false
 image: "/images/posts/hugo-portfolio.png"
+images: ["/images/posts/hugo-portfolio.png"]
 alt: "portfolio banner image"
 section: ""
+description: "Building a custom Hugo themed portfolio site."
 ---
 ## Localhost: 1313
 

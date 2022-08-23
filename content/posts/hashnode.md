@@ -6,9 +6,10 @@ subtitle: "Using Hashnode as Primary Blog Management"
 date: 2022-02-22T15:49:07-05:00
 draft: false
 image: "/images/posts/subdomain/subdomain.jpg"
+images: ["/images/posts/subdomain/subdomain.jpg"]
 alt: "hashnode graphic"
 section: ""
-description: ""
+description: "Moving blog to hashnode"
 ---
 
 ## A powerful ally

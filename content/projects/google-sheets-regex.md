@@ -5,13 +5,14 @@ subtitle: "Dynamically display images in Google Sheets from Google Drive"
 date: 2022-08-15T13:44:06-04:00
 draft: false
 image: "/images/projects/google-sheets-regex-blog.jpg"
+images: ["/images/projects/google-sheets-regex-blog.jpg"]
 alt: ""
 section: ""
 code: ""
 demo: "https://docs.google.com/spreadsheets/d/1rFU2gPy6rU8IKFDmsxKHYCf0KGVHkcumQ5O5QCf156M/edit#gid=0"
 problem: "Problem to solve:"
 solution: ""
-description: ""
+description: "Dynamically display images in Google Sheets from Google Drive"
 ---
 
 ## Google Sheets FTW

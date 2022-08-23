@@ -5,13 +5,14 @@ subtitle: ""
 date: 2022-03-01T13:15:28-04:00
 draft: false
 image: "/images/projects/infinite-memory.jpg"
+images: ["/images/projects/infinite-memory.jpg"]
 alt: ""
 section: ""
 code: "https://github.com/sieis/infinite-memory"
 demo: "https://infinite-memory.netlify.app/"
 problem: "Problem to solve:"
 solution: ""
-description: ""
+description: "A memorization tool for studying scripture"
 ---
 ## Overview
 

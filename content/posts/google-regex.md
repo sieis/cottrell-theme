@@ -6,9 +6,10 @@ subtitle: "How to Dynamically Display Images on Google Sheets from Google Drive"
 date: 2022-08-15T14:12:16-04:00
 draft: true
 image: "/images/projects/google-sheets-regex-blog.jpg"
+images: ["/images/projects/google-sheets-regex-blog.jpg"]
 alt: ""
 section: ""
-description: ""
+description: "Dynamically Display Images on Google Sheets from Google Drive"
 ---
 
 > [Originally published on freeCodeCamp.](https://www.freecodecamp.org/news/google-sheets-use-regex-and-vlookup-to-display-images-from-google-drive/)

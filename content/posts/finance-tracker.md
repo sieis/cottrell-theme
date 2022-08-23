@@ -6,10 +6,11 @@ subtitle: "An easy to use personal finance template in Google Sheets"
 date: 2022-01-09T13:07:58-05:00
 draft: false
 image: "/images/posts/finance/personal-finance-tracker.png"
+images: ["/images/posts/finance/personal-finance-tracker.png"]
 alt: "spreadsheet graphic"
 altimage: "/images/posts/finance/personal-finance-screenshot.png"
 section: ""
-description: ""
+description: "Free finance tracker Google Sheet"
 ---
 ## A Yearly Tradition; a New Year's First Project
 

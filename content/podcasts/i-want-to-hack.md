@@ -5,6 +5,7 @@ subtitle: "Computer Programming Documentary"
 date: 2012-10-17T20:46:48-05:00
 draft: false
 image: "/images/podcasts/iw2h.jpg"
+images: ["/images/podcasts/iw2h.jpg"]
 alt: "i want to hack colorful logo"
 section: ""
 trailer: "https://share.transistor.fm/e/b1b29a7d"

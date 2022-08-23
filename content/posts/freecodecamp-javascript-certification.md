@@ -6,10 +6,11 @@ subtitle: "Reflections on freeCodeCamp's javascript certification"
 date: 2021-12-18T13:39:37-05:00
 draft: false
 image: "/images/posts/freecodecamp/freecodecamp.png"
+images: ["/images/posts/freecodecamp/freecodecamp.png"]
 alt: "freeCodeCamp logo"
 altimage: "/images/posts/freecodecamp/cert.png"
 section: ""
-description: ""
+description: "Reflections on freeCodeCamp's Javascript Certification"
 ---
 
 ## Victory! A Javascript Certificate
