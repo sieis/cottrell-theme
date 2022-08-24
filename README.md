@@ -1,8 +1,8 @@
-# :boom: eamonn :boom:
-
-## Yet another Hugo Portfolio Theme :grin:
+# :boom: My Hugo Portfolio Theme :boom:
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a9d21c5e-caac-41e3-93c9-1e98a200465c/deploy-status)](https://app.netlify.com/sites/eamonn/deploys)
+
+![Eamonn](https://github.com/sieis/cottrell-theme/blob/main/static/images/portfolio%20screenshot.png)
 
 I'm using Bootstrap5, FontAwesome and Hugo for my personal site which is live [here](https://eamonncottrell.com).
 
