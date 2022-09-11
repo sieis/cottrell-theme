@@ -1,3 +1,7 @@
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .text-gradient{
     background: -webkit-linear-gradient(60deg, #0d6efd, #198754);
     -webkit-background-clip: text;
