@@ -2,12 +2,12 @@ body{
     max-width: 1440px;
     margin: 0 auto;
 }
-/* .text-gradient{
-    background: -webkit-linear-gradient(60deg, #0d6efd, #198754);
+.text-gradient{
+    background: -webkit-linear-gradient(60deg, #0e9d58, #074e2c);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-} */
+}
 
 .page-container{
     position: relative;
@@ -21,4 +21,8 @@ body{
 
 img{
     max-width: 100%;
+}
+
+a{
+    color: #0e9d58;
 }
