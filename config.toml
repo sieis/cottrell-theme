@@ -7,8 +7,8 @@ enableEmoji = true
 
 
 [params]
-subtitle = "web design and development"
-description = "Eamonn is a web developer and tech writer based in the southeastern United States."
+subtitle = "I make tech videos and tutorials. Try my free newsletter 👇"
+description = "Eamonn is a COO and YouTuber based in the southeastern United States."
 metaimage = "/images/twittercard.jpg"
 gtag = "G-YML43Q3HZ7"
 images = ["/images/twittercard.jpg"]
