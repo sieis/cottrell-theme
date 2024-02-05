@@ -13,7 +13,7 @@ description: ""
 
 ## :wave: Hey there!
 
-I am the proud father of 3 (with one more on the way in 2022), I'm married to my best friend, and I love creating things.
+I am the proud father of 4, I'm married to a rockstar, and I love creating things.
 
 ### :fire: I've been a
  
@@ -56,5 +56,5 @@ I am the proud father of 3 (with one more on the way in 2022), I'm married to my
 - MongoDB
 
 
-I :heart: web development and making functional sites for businesses and individuals.
+I :heart: making tech content online: from tutorials on [YouTube](https://www.youtube.com/@eamonncottrell) to my [newsletters](https://got-sheet.beehiiv.com/).
 
