@@ -6,69 +6,20 @@
         </div>
       <div class="col-lg-6">
         <h1 class="animate__animated animate__flipInX display-2 fw-bold text-gradient lh-1 mb-3">Hi, I'm Eamonn<i class="far fa-hand-spock"></i></h1>
-        <p class="fs-3 text-gradient">
+        <p class="fs-4">
           {{.Site.Params.Subtitle}}<br>
+          <iframe src="https://embeds.beehiiv.com/eab8502a-f9ab-4d3f-abc8-30b1abb520a9?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
+          
+
       </div>
     </div>
   </div>
+  <div class="container-fluid rounded-3 text-center p-5"style="background: #0e9d58">
+    <h2 class="text-light display-3 fw-bold">Videos</h2>
+    <p class="fs-4 text-light">Check out my YouTube Channel. I make tech tutorials about coding, spreadsheets and cool products 👇</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zNqcLWGJlvQ?si=SCE2cQGVEQKqQq95" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
 
-  <hr>
-  <!--===================== Writings =====================-->
-  <!-- range through sections -->
-  {{range .Sections.ByDate}}
-    <section class="container-fluid my-5 bg-gradient" id="{{.Section}}">
-        <h2 class="fw-bold text-center py-4 display-4"><a class="text-decoration-none text-gradient" href="{{.RelPermalink}}">{{.Title}} 
-          <!-- display icon based on section -->
-          {{ if (eq .Section "posts")}}<i class="fas fa-pen-fancy"></i>{{end}}
-          {{ if (eq .Section "projects")}}<i class="fas fa-rocket"></i>{{end}}
-          {{ if (eq .Section "podcasts")}}<i class="fas fa-music"></i>{{end}}
-        </a></h2>
-        <!-- display subtitle based on section...subtitles are in front matter of section's _index.md -->
-        {{ if (eq .Section "posts")}}
-          <p class="fs-3 lead text-center">{{.Params.subtitle}}</p>
-        {{end}}
-        {{ if (eq .Section "projects")}}
-          <p class="fs-3 lead text-center">{{.Params.subtitle}}</p>
-        {{end}}
-        {{ if (eq .Section "podcasts")}}
-          <p class="fs-3 lead text-center">{{.Params.subtitle}}</p>
-        {{end}}
-        <!-- make cards for first 3 Pages from each section -->
-        <div class="row row-cols-1 row-cols-lg-3">
-          {{ range first 3 .Pages }}
-          <div class="col my-3">
-            <div class="card shadow-sm my-3 mx-auto h-100">
-              <!-- Params from front matter of each post -->
-              <img src="{{.Params.image}}" alt="" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title fw-bold text-gradient display-5 pb-3"><a class="text-decoration-none text-gradient" href="{{.RelPermalink}}">{{.Title}}</a></h5>
-                <p class="fs-5 text-muted">{{if (eq .Section "posts")}}{{.Date | time.Format ":date_short"}}{{end}}</p>
-                <p class="lead text-muted"> {{.Params.subtitle}}</p>
-                <p class="card-text">{{.Summary}}</p>
-              </div>
-              <!-- footer links depending on which section...different ones have different front matter and link needs -->
-              <div class="card-footer text-center">
-                {{ if (eq .Section "posts")}}
-                  <a class="btn btn-lg btn-outline-primary" href="{{.RelPermalink}}">Read More</a>
-                {{end}}
-                {{ if (eq .Section "projects")}}
-                  <a class="btn btn-lg btn-outline-success" rel="noopener" target="_blank" href="{{.Params.code}}">Code</a>
-                  <a class="btn btn-lg btn-outline-primary" rel="" target="" href="{{.RelPermalink}}">Read More</a>
-                  <a class="btn btn-lg btn-outline-secondary" rel="noopener" target="_blank" href="{{.Params.demo}}">Demo</a>
-                {{end}}
-                {{ if (eq .Section "podcasts")}}
-                  <a class="btn btn-lg btn-outline-primary" href="{{.RelPermalink}}">{{.Title}} Page</a>
-                {{end}}
-              </div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
-        <div class="text-center fs-5 fw-bold p-5">
-          <a href="{{.RelPermalink}}" class="text-gradient">all {{.Title}} <i class="fas fa-mouse-pointer"></i></a>
-        </div>
-      </section>
-    <hr>
-  {{end}}
+  
 
 {{ end }}
